@@ -1,0 +1,22 @@
+            - name: Cloudflare Pages Publisher Action
+  # You may pin to the exact commit or the version.
+  # uses: Aetherinox/cloudflare-publish-action@4a6c552bf30836de7ee6fd7cc05e8b22483de506
+  uses: Aetherinox/cloudflare-publish-action@1.0.0
+  with:
+    # Cloudflare API Token
+    apiToken: 
+    # Cloudflare Account ID
+    accountId: 
+    # Name of the Pages project to upload to
+    projectName: 
+    # Directory of static assets to upload. Use ./ if in base directory
+    directory: 
+    # GitHub Token
+    gitHubToken: # optional
+    # Name of the branch you want to deploy to
+    branch: # optional
+    # Working directory in which to run Wrangler. Use ./ if in base directory.
+    workingDirectory: # optional
+    # Version of Wrangler to use
+    wranglerVersion: # optional, default is 2
+          
